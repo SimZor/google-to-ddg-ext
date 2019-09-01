@@ -1,0 +1,1 @@
+I got tired of using Google since typing in https://google.com was so deep in my muscle memory that I keep doing it so this extension will help with that. Even if I type google.com it will redirect instantly to duckduckgo.com.
