@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Google to DuckDuckGo",
+    "version": "1.0",
+    "description": "Redirects all requests to https://google.com to https://duckduckgo.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.google.com/",
+                "*://www.google.se/",
+                "*://google.com/",
+                "*://google.se/"
+            ],
+            "js": ["redirect.js"]
+        }
+    ]
+}
